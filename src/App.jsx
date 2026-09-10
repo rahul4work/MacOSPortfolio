@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./app.scss";
-import Nav from "./components/Nav";
-import Dock from "./components/Dock";
-import Github from "./components/windows/Github";
-import Note from "./components/windows/Note";
-import Resume from "./components/windows/Resume";
-import Spotify from "./components/windows/Spotify";
-import Cli from "./components/windows/Cli";
+import Nav from "./components/Nav.jsx";
+import Dock from "./components/Dock.jsx";
+import Github from "./components/windows/Github.jsx";
+import Note from "./components/windows/Note.jsx";
+import Resume from "./components/windows/Resume.jsx";
+import Spotify from "./components/windows/Spotify.jsx";
+import Cli from "./components/windows/Cli.jsx";
 
 const App = () => {
   const [windowsState, setWindowsState] = useState({

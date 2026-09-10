@@ -1,7 +1,14 @@
-import React from "react";
 import "./dock.scss";
+import GitHubIcon from "../assets/doc-icons/github.svg";
+import NoteIcon from "../assets/doc-icons/note.svg";
+import DocIcon from "../assets/doc-icons/pdf.svg";
+import CalenderIcon from "../assets/doc-icons/calender.svg";
+import SpotifyIcon from "../assets/doc-icons/spotify.svg";
+import MailIcon from "../assets/doc-icons/mail.svg";
+import LinkIcon from "../assets/doc-icons/link.svg";
+import CliIcon from "../assets/doc-icons/cli.svg";
 
-const Dock = () => {
+const Dock = ({ windowsState, setWindowsState }) => {
   return (
     <footer>
       <div
@@ -10,7 +17,7 @@ const Dock = () => {
         }}
         className="icon github"
       >
-        <img src="/doc-icons/github.svg" alt="github-icon" />
+        <img src={GitHubIcon} alt="github-icon" />
       </div>
       <div
         onClick={() => {
@@ -18,7 +25,7 @@ const Dock = () => {
         }}
         className="icon note"
       >
-        <img src="/doc-icons/note.svg" alt="note-icon" />
+        <img src={NoteIcon} alt="note-icon" />
       </div>
       <div
         onClick={() => {
@@ -26,7 +33,7 @@ const Dock = () => {
         }}
         className="icon pdf"
       >
-        <img src="/doc-icons/pdf.svg" alt="pdf-icon" />
+        <img src={DocIcon} alt="pdf-icon" />
       </div>
       <div
         onClick={() => {
@@ -34,7 +41,7 @@ const Dock = () => {
         }}
         className="icon calender"
       >
-        <img src="/doc-icons/calender.svg" alt="calender-icon" />
+        <img src={CalenderIcon} alt="calender-icon" />
       </div>
       <div
         onClick={() => {
@@ -42,7 +49,7 @@ const Dock = () => {
         }}
         className="icon spotify"
       >
-        <img src="/doc-icons/spotify.svg" alt="spotify-icon" />
+        <img src={SpotifyIcon} alt="spotify-icon" />
       </div>
       <div
         onClick={() => {
@@ -50,7 +57,7 @@ const Dock = () => {
         }}
         className="icon mail"
       >
-        <img src="/doc-icons/mail.svg" alt="mail-icon" />
+        <img src={MailIcon} alt="mail-icon" />
       </div>
       <div
         onClick={() => {
@@ -61,7 +68,7 @@ const Dock = () => {
         }}
         className="icon link"
       >
-        <img src="/doc-icons/link.svg" alt="link-icon" />
+        <img src={LinkIcon} alt="link-icon" />
       </div>
       <div
         onClick={() => {
@@ -69,7 +76,7 @@ const Dock = () => {
         }}
         className="icon cli"
       >
-        <img src="/doc-icons/cli.svg" alt="cli-icon" />
+        <img src={CliIcon} alt="cli-icon" />
       </div>
     </footer>
   );
