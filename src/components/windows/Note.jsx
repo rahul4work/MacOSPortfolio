@@ -12,13 +12,13 @@ const Note = ({ windowName, setWindowsState }) => {
     fetch(NoteText)
       .then((res) => res.text())
       .then((text) => setMarkdown(text));
-  });
+  }, []);
 
   return (
     <MacWindow windowName={windowName} setWindowsState={setWindowsState}>
       <div className="note-window">
         {markdown ? (
-          <SyntaxHighlighter language="typescript" style={atelierDuneDark}>
+          <SyntaxHighlighter language="javascript" style={atelierDuneDark}>
             {markdown}
           </SyntaxHighlighter>
         ) : (

@@ -8,7 +8,14 @@
 
 ## 📸 Preview
 
-![macOS Portfolio Preview](./public/preview.png)
+### Home Page
+![macOS Portfolio Preview](./public/preview/desktop.png)
+
+### Multiple Applications Open
+![macOS Portfolio Preview](./public/preview/multi-window.png)
+
+### Terminal Application
+![macOS Portfolio Preview](./public/preview/terminal.png)
 
 ---
 

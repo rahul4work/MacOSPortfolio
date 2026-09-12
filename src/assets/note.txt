@@ -1,105 +1,359 @@
 /**
- * @file: profile.config.ts
- * @author: Engineering Portfolio
- * @summary: A high-performance full-stack engineer.
+ * @file: profile.config.js
+ * @author: Rahul Kumar
+ * @summary: Full Stack Software Engineer
  */
 
-// --------------------------------------------------
-// 1. CORE DEPENDENCIES & SKILLS
-// --------------------------------------------------
+// ==================================================
+// 1. PROFILE
+// ==================================================
 
-const TECH_STACK = {
-  frontend: [
-    "React.js",    // 100%
-    "Next.js",     // 95%
-    "TailwindCSS", // 90%
-    "Three.js",    // 70%
+const profile = {
+  name: "Rahul Kumar",
+
+  role: "Full Stack Software Engineer",
+
+  location: "Gurugram, India",
+
+  email: "heyyrj98@gmail.com",
+
+  github: "https://github.com/rahul4work",
+
+  linkedin: "https://www.linkedin.com/in/kumar-rahul4work/",
+
+  summary:
+    "Full Stack Software Engineer with hands-on experience building scalable web applications using React.js, Node.js, Express.js, and MongoDB. Experienced in RESTful APIs, authentication systems, database design, state management, API integration, and responsive user interfaces.",
+
+  currentlyExploring: [
+    "Generative AI",
+    "Retrieval-Augmented Generation (RAG)",
   ],
-  backend: [
-    "Node.js",     // 90%
-    "PostgreSQL",  // 85%
-    "Redis",       // 75%
-    "Docker",      // 80%
-  ],
-  tools: ["AWS", "Git", "Figma", "Linux"]
 };
 
-// --------------------------------------------------
-// 2. EXPERIENCE LOG (Reverse Chronological)
-// --------------------------------------------------
 
-class ProfessionalHistory {
-  
-  /** * CURRENT ROLE
-   * @period 2023 - Present 
-   */
-  public async TechFlow_Systems(): Promise<Impact> {
-    const role = "Senior Full-Stack Engineer";
-    
-    // Key Achievements
-    const optimized = await api.optimize({ strategy: "Redis Caching" });
-    const latencyReduction = "40%";
-    
-    const leadership = this.mentor(["Jr. Dev 1", "Jr. Dev 2", "Jr. Dev 3"]);
-    const architecture = "Monolith -> Microservices Migration";
-    
-    return { role, optimized, architecture, leadership };
-  }
+// ==================================================
+// 2. TECHNICAL SKILLS
+// ==================================================
 
-  /** * PREVIOUS ROLE
-   * @period 2021 - 2023
-   */
-  public PixelPerfect_Studios(): void {
-    this.role = "Frontend Developer";
-    this.focus = "High-Fidelity Animations";
-    
-    // Implemented GSAP scroll-triggers for 15+ clients
-    // Improved Lighthouse Performance Scores: 65 -> 98
-  }
-}
+const skills = {
+  languages: [
+    "JavaScript (ES6+)",
+    "C++",
+    "Python",
+  ],
 
-// --------------------------------------------------
-// 3. COMPETITIVE ACHIEVEMENTS
-// --------------------------------------------------
+  frontend: [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Tailwind CSS",
+    "React.js",
+    "Next.js",
+    "Shadcn UI",
+    "Material UI",
+    "Redux Toolkit",
+    "Axios",
+    "Context API",
+  ],
 
-interface HackathonWin {
-  rank: number;
-  event: string;
-  project: string;
-}
+  backend: [
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "JWT Authentication",
+    "MVC Architecture",
+  ],
 
-const trophyCabinet: HackathonWin[] = [
+  databases: [
+    "MongoDB",
+    "Firebase",
+    "Supabase",
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "Render",
+    "Vercel",
+    "Netlify",
+    "Postman",
+    "GitHub Actions",
+  ],
+
+  coreConcepts: [
+    "Data Structures & Algorithms",
+    "RESTful APIs",
+    "Object-Oriented Programming",
+    "CRUD Operations",
+  ],
+};
+
+
+// ==================================================
+// 3. WORK EXPERIENCE
+// ==================================================
+
+const experience = [
   {
-    rank: 1,
-    event: "Global AI Hackathon 2024",
-    project: "EcoVision (Computer Vision Waste Segregation)",
-    // Prize: $5,000
+    company: "Tekonika Technologies",
+    role: "Full Stack Developer Intern",
+    location: "Gurugram, India",
+    period: "Aug 2025 - Nov 2025",
+    type: "Hybrid",
+
+    responsibilities: [
+      "Built Login and Signup modules for the company's recruitment platform using React.js.",
+      "Implemented responsive layouts, form validation, and authentication workflows.",
+      "Documented 20+ defects with clear reproduction steps using Jira.",
+      "Collaborated with developers to prioritize, track, and verify bug resolutions.",
+      "Conducted regression testing after 15+ feature enhancements.",
+      "Identified and fixed 20+ content and UI issues across News and Blogs modules.",
+      "Tested and validated 3+ API endpoints for blogs and related resources.",
+    ],
   },
-  {
-    rank: 500, // Top 500 Global
-    event: "Google Code Jam 2023",
-    project: "Algorithm Optimization (Dynamic Programming)",
-  }
 ];
 
-// --------------------------------------------------
-// 4. ACADEMIC BACKGROUND
-// --------------------------------------------------
 
-const education = new Map<string, string>([
-  ["Stanford University", "MS Computer Science (3.9 GPA)"],
-  ["MIT World Peace Univ", "B.Tech Information Tech (8.8 CGPA)"]
-]);
+// ==================================================
+// 4. PROJECTS
+// ==================================================
 
-export default new ProfessionalHistory();
+const projects = [
+  {
+    name: "PerplexityClone",
+    category: "AI Search & Chat Application",
+
+    description:
+      "A full-stack AI-powered search and chat application integrating multiple LLMs with real-time internet search capabilities and secure JWT-based authentication.",
+
+    highlights: [
+      "Integrated Google Gemini and Mistral AI.",
+      "Integrated Tavily Search for real-time web search.",
+      "Designed a MERN backend with 10+ RESTful API endpoints.",
+      "Implemented AI conversations and model switching.",
+      "Implemented email verification and Generative AI workflows.",
+      "Implemented JWT authentication and Google OAuth 2.0.",
+    ],
+
+    technologies: [
+      "React.js",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "React Router",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Google Gemini API",
+      "Mistral AI API",
+      "Tavily Search API",
+      "Gmail API",
+      "Google OAuth 2.0",
+      "Vite",
+      "REST APIs",
+      "Render",
+    ],
+
+    github:
+      "https://github.com/rahul4work/perplexity-clone",
+  },
+
+  {
+    name: "SnitchClone",
+    category: "E-Commerce Platform",
+
+    description:
+      "A full-stack fashion e-commerce platform inspired by Snitch with secure authentication, role-based access control, product management, variants, and seller functionality.",
+
+    highlights: [
+      "Implemented JWT authentication and Google OAuth.",
+      "Implemented buyer and seller role-based access control.",
+      "Designed a scalable MERN architecture.",
+      "Developed 15+ RESTful API endpoints.",
+      "Implemented product management and product variants.",
+      "Implemented secure image uploads.",
+      "Implemented protected routes and state management.",
+    ],
+
+    technologies: [
+      "React.js",
+      "Redux Toolkit",
+      "Axios",
+      "Tailwind CSS",
+      "React Router",
+      "MVC Architecture",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "CRUD Operations",
+      "JWT Authentication",
+      "Google OAuth 2.0",
+      "REST APIs",
+      "Vite",
+      "Multer",
+      "ImageKit",
+      "Render",
+    ],
+
+    github:
+      "https://github.com/rahul4work/snitch-clone",
+  },
+
+  {
+    name: "UberClone",
+    category: "Ride Booking Web App",
+
+    description:
+      "A full-stack ride-booking web application featuring role-based authentication, secure REST APIs, and user-driver session management.",
+
+    highlights: [
+      "Implemented role-based authentication for users and drivers.",
+      "Designed secure RESTful APIs.",
+      "Implemented JWT-based authentication.",
+      "Optimized backend middleware for improved API performance.",
+      "Built the application using a structured backend architecture.",
+    ],
+
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "JWT",
+      "MongoDB",
+    ],
+
+    github:
+      "https://github.com/rahul4work/uber-clone",
+  },
+
+  {
+    name: "Estate",
+    category: "Real Estate Web Application",
+
+    description:
+      "A modern real estate web application focused on property discovery, responsive interfaces, and a clean user experience.",
+
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "React Router",
+      "JavaScript",
+      "Web3Forms",
+      "Responsive Design",
+    ],
+
+    github:
+      "https://github.com/rahul4work/estate",
+
+    demo:
+      "https://estate-two-ebon.vercel.app/",
+  },
+
+  {
+    name: "FitX",
+    category: "Fitness Web Application",
+
+    description:
+      "A modern responsive fitness web application built with React and Tailwind CSS.",
+
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "React Hooks",
+      "Responsive Design",
+      "UI/UX",
+    ],
+
+    github:
+      "https://github.com/rahul4work/FitX",
+
+    demo:
+      "https://fit-x-eta.vercel.app/",
+  },
+];
 
 
-```bash
-# TERMINAL OUTPUT
-# ---------------------------------------
-$ user --status
-> Status: Open to Opportunities
-> Location: Global / Remote
-> Loading Assets... [||||||||||] 100%
-> Ready.
-```
+// ==================================================
+// 5. EDUCATION
+// ==================================================
+
+const education = [
+  {
+    degree: "Bachelor of Technology in Computer Science",
+    institution: "Parul University",
+    location: "Vadodara, Gujarat, India",
+    period: "2021 - 2025",
+  },
+
+  {
+    degree: "Higher Secondary School",
+    institution: "St Paul's High School",
+    location: "Hajipur, Bihar, India",
+    period: "2019 - 2021",
+  },
+];
+
+
+// ==================================================
+// 6. CERTIFICATIONS & ACHIEVEMENTS
+// ==================================================
+
+const achievements = {
+  certifications: [
+    "Data Structures & Algorithm with C++",
+    "Data Analytics with Python - NPTEL",
+  ],
+
+  dsa: {
+    solvedProblems: "200+",
+    platform: "CodeStudio",
+    badges: "20+",
+  },
+};
+
+
+// ==================================================
+// 7. CONTACT
+// ==================================================
+
+const contact = {
+  email: "heyyrj98@gmail.com",
+
+  github: "https://github.com/rahul4work",
+
+  linkedin: "https://www.linkedin.com/in/kumar-rahul4work/",
+};
+
+
+// ==================================================
+// 8. TERMINAL STATUS
+// ==================================================
+
+const terminalStatus = {
+  command: "rahul4work --status",
+
+  output: [
+    "Status: Open to Opportunities",
+    "Role: Full Stack Software Engineer",
+    "Focus: MERN Stack",
+    "Location: Gurugram, India",
+    "Currently Exploring: Generative AI + RAG",
+    "Loading Portfolio... [||||||||||] 100%",
+    "Ready.",
+  ],
+};
+
+
+export {
+  profile,
+  skills,
+  experience,
+  projects,
+  education,
+  achievements,
+  contact,
+  terminalStatus,
+};
