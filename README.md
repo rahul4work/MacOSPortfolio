@@ -1,165 +1,120 @@
 # 🖥️ macOS Portfolio
 
-> A fully interactive macOS-inspired developer portfolio that turns my profile into a functional desktop experience.
+> An interactive macOS-inspired developer portfolio that transforms a traditional portfolio into a functional desktop experience.
 
-🌐 **Live Demo:** [Coming Soon](#)
+🌐 **Live Demo:** [macOS Portfolio](https://mac-os-portfolio-mu-five.vercel.app/)
+
+---
+
+## 📌 Overview
+
+macOS Portfolio is a personal developer portfolio built with React.js and Vite that recreates the experience of interacting with a macOS-style desktop directly inside the browser.
+
+Instead of presenting information through a conventional portfolio layout, the application organizes professional information into interactive desktop applications.
+
+Visitors can open different applications from the dock to explore projects, read professional information, view the resume, listen to a Spotify playlist, access social profiles, and interact with a built-in terminal.
+
+The goal of the project is to combine a professional developer portfolio with an interactive desktop-style user experience.
+
+---
+
+## ✨ Highlights
+
+- macOS-inspired desktop interface
+- Interactive top navigation bar
+- Dynamic date and time
+- macOS-style application dock
+- Interactive application windows
+- Draggable and resizable windows
+- Multiple applications can be opened independently
+- Built-in developer terminal
+- GitHub project explorer
+- Developer profile notes
+- Embedded resume viewer
+- Spotify playlist integration
+- Google Calendar integration
+- Email integration
+- LinkedIn integration
+- Responsive desktop-oriented UI
+- Component-based React architecture
 
 ---
 
 ## 📸 Preview
 
 ### Home Page
+
 ![macOS Portfolio Preview](./public/preview/desktop.png)
 
-### Multiple Applications Open
-![macOS Portfolio Preview](./public/preview/multi-window.png)
+### Multiple Applications
 
-### Terminal Application
-![macOS Portfolio Preview](./public/preview/terminal.png)
+![Multiple Applications](./public/preview/multi-window.png)
 
----
+### Interactive Terminal
 
-## ✨ About The Project
-
-This project is a personal portfolio designed to recreate the experience of using a macOS desktop directly inside the browser.
-
-Instead of using a traditional portfolio layout with separate pages for About, Projects, Resume, and Contact, the entire portfolio is presented as an interactive desktop environment.
-
-Users can interact with the menu bar, dock, application windows, external integrations, and a built-in terminal to explore my professional profile.
-
----
-
-## 🚀 Features
-
-### 🍎 macOS-Inspired Desktop
-
-- macOS-style desktop interface
-- Top navigation/menu bar
-- Apple-style menu layout
-- Dynamic date and time
-- Wi-Fi status indicator
-- Desktop wallpaper
-- macOS-inspired dock
-- Application-style windows
-- Multiple applications can be opened and viewed independently
-
-### 🐙 GitHub
-
-The GitHub application provides quick access to my GitHub profile and projects.
-
-### 📝 Notes
-
-A Notes-style application containing my:
-
-- Introduction
-- Developer profile
-- Skills
-- Experience
-- Projects
-- Other professional information
-
-### 📄 Resume
-
-A built-in PDF viewer that allows visitors to view my resume directly inside the portfolio without leaving the website.
-
-### 📅 Calendar
-
-An integrated Google Calendar application for displaying my calendar directly within the portfolio environment.
-
-### 🎵 Spotify
-
-An embedded Spotify experience containing my selected playlist.
-
-### ✉️ Mail
-
-A mail application that allows visitors to quickly access my email address and contact me.
-
-### 🔗 LinkedIn
-
-Provides direct access to my LinkedIn profile.
-
-### 💻 Terminal
-
-One of the main interactive features of the portfolio.
-
-The Terminal application provides a React-based command-line interface where visitors can interact with the portfolio using terminal-style commands.
+![Terminal Application](./public/preview/terminal.png)
 
 ---
 
 ## 🧩 Applications
 
-| Application | Purpose |
-|------------|---------|
-| 🐙 GitHub | GitHub profile |
-| 📝 Notes | Personal & professional information |
-| 📄 Resume | Embedded resume PDF |
-| 📅 Calendar | Google Calendar |
-| 🎵 Spotify | Spotify playlist |
-| ✉️ Mail | Email contact |
-| 🔗 LinkedIn | LinkedIn profile |
-| 💻 Terminal | Interactive React terminal |
+| Application | Description |
+|------------|-------------|
+| 🐙 GitHub | Displays selected projects and repository links |
+| 📝 Notes | Displays my developer profile, skills, experience, projects, and professional information |
+| 📄 Resume | Embedded PDF resume viewer |
+| 📅 Calendar | Opens Google Calendar |
+| 🎵 Spotify | Embedded Spotify playlist |
+| ✉️ Mail | Opens the default email client |
+| 🔗 LinkedIn | Opens my LinkedIn profile |
+| 💻 Terminal | Interactive command-line interface for exploring my portfolio |
 
 ---
 
-## 🛠️ Tech Stack
+## 🐙 GitHub Application
 
-### Frontend
+The GitHub application provides an interactive project explorer containing selected projects from my GitHub profile.
 
-- React.js
-- JavaScript
-- HTML5
-- CSS3
-- Vite
+Each project can display:
 
-### Integrations
+- Project preview image
+- Project name
+- Project description
+- Technology stack
+- Repository link
+- Live demo link when available
 
-- GitHub
-- LinkedIn
-- Google Calendar
-- Spotify
-- PDF Viewer
+### Featured Projects
 
-### Other
+- SnitchClone
+- PerplexityClone
+- Estate
+- FitX
+- UberClone
 
-- React-based terminal interface
-- Responsive desktop UI
-- Component-based architecture
+GitHub:
+
+[rahul4work](https://github.com/rahul4work)
 
 ---
 
-## 📂 Project Structure
+## 📝 Notes Application
+
+The Notes application presents my professional profile in a developer-oriented JavaScript configuration format.
+
+The displayed information includes:
+
+- Professional summary
+- Technical skills
+- Work experience
+- Projects
+- Education
+- Certifications
+- Achievements
+- Contact information
+- Current career focus
+
+The content is maintained in:
 
 ```text
-macos-portfolio/
-│
-├── public/
-│   ├── icons/
-│   ├── wallpapers/
-│   └── preview.png
-│
-├── src/
-│   ├── assets/
-│   │
-│   ├── components/
-│   │   ├── Dock/
-│   │   ├── MenuBar/
-│   │   ├── Window/
-│   │   └── ...
-│   │
-│   ├── apps/
-│   │   ├── Github/
-│   │   ├── Notes/
-│   │   ├── Resume/
-│   │   ├── Calendar/
-│   │   ├── Spotify/
-│   │   ├── Mail/
-│   │   ├── LinkedIn/
-│   │   └── Terminal/
-│   │
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── ...
-│
-├── package.json
-├── vite.config.js
-└── README.md
+src/assets/note.txt
