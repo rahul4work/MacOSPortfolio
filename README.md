@@ -42,16 +42,49 @@ The goal of the project is to combine a professional developer portfolio with an
 
 ## 📸 Preview
 
+<table>
+  <tr>
+    <td width="50%">
+      <img
+        src="./public/preview/desktop.png"
+        alt="macOS Portfolio Home Page"
+        width="100%"
+        height="200"
+      />
+      <p align="center">Home Page</p>
+    </td>
+    <td width="50%">
+      <img
+        src="./public/preview/multi-window.png"
+        alt="Multiple Applications"
+        width="100%"
+        height="200"
+      />
+      <p align="center">Multiple Applications</p>
+    </td>
+  </tr>
 
-| | |
-|---|---|
-|![macOS Portfolio Preview](./public/preview/desktop.png) Home Page | ![Multiple Applications](./public/preview/multi-window.png) Multiple Applications |
-
-### Interactive Terminal
-| | |
-|---|---|
-|![Terminal Application](./public/preview/terminal.png) Interactive Terminal | |
-
+  <tr>
+    <td width="50%">
+      <img
+        src="./public/preview/terminal.png"
+        alt="Interactive Terminal"
+        width="100%"
+        height="200"
+      />
+      <p align="center">Interactive Terminal</p>
+    </td>
+    <td width="50%">
+      <img
+        src="./public/preview/my_resume.png"
+        alt="Resume Viewer"
+        width="100%"
+        height="200"
+      />
+      <p align="center">My Resume</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
