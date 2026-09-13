@@ -42,17 +42,16 @@ The goal of the project is to combine a professional developer portfolio with an
 
 ## 📸 Preview
 
-### Home Page
 
-![macOS Portfolio Preview](./public/preview/desktop.png)
-
-### Multiple Applications
-
-![Multiple Applications](./public/preview/multi-window.png)
+| | |
+|---|---|
+|![macOS Portfolio Preview](./public/preview/desktop.png) Home Page | ![Multiple Applications](./public/preview/multi-window.png) Multiple Applications |
 
 ### Interactive Terminal
+| | |
+|---|---|
+|![Terminal Application](./public/preview/terminal.png) Interactive Terminal | |
 
-![Terminal Application](./public/preview/terminal.png)
 
 ---
 
